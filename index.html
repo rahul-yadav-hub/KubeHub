@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KubeHub</title>
+
+<!--META-->
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+
+<!--FONTS-->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!--JS-->
+
+</head>
+
+<body>
+<div class="se-pre-con">
+<div class="cssload-container">
+	<div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+</div>
+</div>
+	<header>
+		<div class="container">
+    		<div class="row">
+            	<div class="col-lg-12">
+                <div class="menuside">
+                    <div id="o-wrapper" class="o-wrapper">
+                           
+                                <button id="c-button--slide-left"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>       
+                       
+                    </div><!-- /o-wrapper -->
+                    </div>
+                	<div class="logo"><a href="#"><img src="images/logo3.png" alt=""/></a></div>
+                    <nav id="topmenu">
+                    	<ul>                                                                                          
+                        	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                           
+                        </ul>
+                    </nav>
+                    
+                </div>
+              	
+            </div>
+        </div>
+    </header>
+    
+    <section id="banner">
+    	<div class="container">
+    		<div class="row">
+            	<div class="col-lg-12">
+                    <h1 class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">Welcome To Kube Hub</h1>
+                    <p class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s">An online platform to sharpen your container orchestration skills.<br> We provide easy to use kubernetes dashboard to interact with kubernetes engine.</p>
+					<a class="logo"><a href="#"><img src="images/kubernetes-icon-black1.png" alt=""/></a>
+                </div
+             </div>
+       </div>    
+    </section>
+    
+	<section id="team">
+    	<div class="container os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s">
+    		<div class="row">
+        		<div class="col-lg-12">
+                	<h2>Developer</h2>
+                    <div ><a href="#"><img src="images/logo4.png" alt=""/></a></div>
+                </div>
+            </div>
+              
+             
+                
+        </div>
+            
+    </section>
+    <aside id="testimonilas">
+    	<div class="container os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s">
+        	<div class="row">
+            	<div class="col-lg-12">
+                	<img src="images/testimonilas.png" alt=""/>
+                    <h3>Kumar Rahul</h3>
+					<span>Aspiring DevOps Engineer</span>
+
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+	</div>
+	
+    <section id="features">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-lg-12 os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">
+                	<h2>Some Built-in Commands in Natural Language</h2>
+                    <p class="top">Click any command below to run and get output in output console.</p>
+					<input type="button" id="cmd1" class="button" value="Create a deployment of webserver" onclick="cgi('cmd1')">
+					<input type="button" id="cmd2" class="button" value="Expose deployment" onclick="cgi('cmd2')">
+					<input type="button" id="cmd3" class="button" value="Delete a deployment" onclick="cgi('cmd3')">
+					<input type="button" id="cmd4" class="button" value="Lauch a hello-world pod" onclick="cgi('cmd4')">
+					<input type="button" id="cmd5" class="button" value="Expose pod by NodePort" onclick="cgi('cmd5')">
+					<input type="button" id="cmd6" class="button" value="Delete a pod" onclick="cgi('cmd6')">
+					<input type="button" id="cmd7" class="button" value="Delete a service" onclick="cgi('cmd7')">
+                </div>
+				
+        		
+           
+                </div>
+                
+					
+                </div>
+            </div>
+            
+           
+<style>
+#OutputBox {
+  margin-top: -20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  height: auto;
+  border-radius: 25px;
+  border: 2px solid yellow;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+.button {
+  border-radius: 6px;
+  background-color: #FFEF00;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: narrower;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+     <footer id="console">
+    	<div class="container">
+    		<div class="row">
+        		<div  class="col-lg-12">
+                	<h2>CONSOLE</h2>
+                    <p class="top"></p>
+					
+                </div>
+            </div>
+            
+            <div class="row">
+        		<div class="col-lg-12">
+                	<div class="mesg"><input type="text" id="searchBox" placeholder="Enter your kubernetes command"><button onclick="cgi('searchBox')">RUN</button></div>
+					
+                </div>
+            </div>
+            
+            </div>
+            
+         </div>
+		 <div>
+			<pre>
+			<div id="OutputBox">Output</div>
+			</pre>
+		 </div>
+		 <div ><a href="#"><img src="images/logo3.png" alt=""/></a></div>
+		 <p>© All Rights Reserved.</p>
+     </footer>    
+	
+	  
+	</div>
+	
+	 
+
+
+<nav id="c-menu--slide-left" class="c-menu c-menu--slide-left">
+  <button class="c-menu__close"><i class="fa fa-times fa-lg" aria-hidden="true"></i></button>
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#banner" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#features" class="c-menu__link">Built-in Commands</a></li>
+    <li class="c-menu__item"><a href="#console" class="c-menu__link">Console</a></li>
+    <li class="c-menu__item"><a href="#team" class="c-menu__link">Developer</a></li>
+  </ul>
+</nav><!-- /c-menu slide-left -->
+    
+ 
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->  
+
+<script>
+  function cgi(buttonid) {
+  var i = document.getElementById(buttonid).value
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "http://65.2.131.50/cgi-bin/docker.py?x=" +i, true);
+  xhr.send();
+  xhr.onload = function() {
+	var output = xhr.responseText;
+	document.getElementById("OutputBox").innerHTML = output;
+	}
+  }
+
+</script>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
