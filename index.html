@@ -90,7 +90,7 @@
                     <h3>Kumar Rahul</h3>
 					<span>Aspiring DevOps Engineer</span>
 
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-yadav-768096180/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     
                 </div>
             </div>
@@ -203,7 +203,7 @@
   function cgi(buttonid) {
   var i = document.getElementById(buttonid).value
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://65.2.131.50/cgi-bin/docker.py?x=" +i, true);
+  xhr.open("GET", "http://15.207.248.204:81/cgi-bin/docker.py?x=" +i, true);
   xhr.send();
   xhr.onload = function() {
 	var output = xhr.responseText;
