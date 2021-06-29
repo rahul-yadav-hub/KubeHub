@@ -205,7 +205,7 @@
   function cgi(buttonid) {
   var i = document.getElementById(buttonid).value
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://15.207.248.204:81/cgi-bin/docker.py?x=" +i, true);
+  xhr.open("GET", "http://65.0.71.145:81/cgi-bin/docker.py?x=" +i, true);
   xhr.send();
   xhr.onload = function() {
 	var output = xhr.responseText;
